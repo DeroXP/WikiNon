@@ -1,0 +1,9 @@
+This is a Chrome Example on how to fetch data from servers using chrome extensions
+
+by far this example is only for Terraria Wiki Fandom
+
+https://terraria.fandom.com/wiki/Terraria
+
+Hope you are pleased with this extension!
+
+Created by DeroVB:)

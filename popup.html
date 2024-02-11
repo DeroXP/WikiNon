@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WikiNon Popup</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #001f3f, #001133);
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .popup-container {
+      text-align: center;
+      width: 400px; 
+      padding: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+
+    input {
+      width: 80%;
+      padding: 12px;
+      margin-bottom: 15px;
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #0074cc;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      opacity: 0.9;
+      font-size: 18px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #results {
+      margin-top: 30px;
+      font-size: 16px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+</style>
+</head>
+
+<body>
+    <div class="popup-container">
+      <h1>WikiNon Search Extension</h1>
+      <input type="text" id="searchInput" placeholder="Search Terraria Wiki">
+      <button id="searchButton">Search</button>
+      <div id="results"></div>
+    </div>
+    <script src="popup.js"></script>
+    <script src="buttonClick.js"></script>
+  </body>
+  
+  </html>
